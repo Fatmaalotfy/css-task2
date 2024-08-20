@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    line: height 15px;
+  }
+  
+  li {
+    float:right;
+    margin: 10px;
+  }
+  .bar_item-logo{
+    float:left;
+  }
+  li:hover {
+    background-color: #b7e0c5;
+    color: rgb(230, 156, 156);
+}
+.top{
+   background-image:url(https://image.shutterstock.com/z/stock-vector-student-boy-sitting-at-home-office-desk-doing-school-homework-surfing-internet-on-desktop-687472963.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background
+}
+#buttom{
+    display:flex;
+    margin: auto;
+
+}
+h2{
+    text-align: center;
+    color: darkgray;
+}
+.paragragh{
+    display: block;
+    float: left;
+    padding:0 20px;
+    width:40px;
+    flex: 1;
+    width: 70%; 
+
+}
+img{
+    float: right;
+    width: 30%; 
+    height: auto;
+    flex: 1;
+}
